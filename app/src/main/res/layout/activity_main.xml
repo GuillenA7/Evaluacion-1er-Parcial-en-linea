@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Etiquetas y cajas de texto para Tornillo -->
+    <TextView android:text="Nombre del Producto" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editNombre" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Código" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editCodigo" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Tamaño (mm)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editTamaño" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="Material" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/editMaterial" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <!-- Botones para registrar, buscar y limpiar -->
+    <Button android:id="@+id/btnRegistrar" android:text="Registrar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnBuscar" android:text="Buscar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnLimpiar" android:text="Limpiar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
