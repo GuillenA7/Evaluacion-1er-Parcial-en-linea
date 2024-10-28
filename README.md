@@ -1,6 +1,6 @@
 # Evaluación 1er Parcial (en línea)
 
-**Instrucciones**: Desarrolle una aplicación móvil bajo plataforma Android y lenguaje Kotlin. El contexto es la **<u>Inventario de Tornillos</u>** a elección del usuario, el diseño es libre, cumpliendo con el manejo de componentes, información y características que se describe a continuación.
+**Instrucciones**: Desarrolle una aplicación móvil bajo plataforma Android y lenguaje Kotlin. El contexto es la ***Inventario de Tornillos*** a elección del usuario, el diseño es libre, cumpliendo con el manejo de componentes, información y características que se describe a continuación.
 
 **1.Implementar la herencia** entre las clases **Producto y Tornillo**, con los atributos que contemplen la información solicitada por la app. Se deben contemplar 2 atributos para la clase padre y 2 atributos para la clase hija.
 
